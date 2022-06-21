@@ -1,4 +1,4 @@
-# Adjust Screen Temperature
+# Adjust Screen Color Temperature
 
 This [AutoHotkey](https://www.autohotkey.com/) script uses the little CLI program
 [ddcset](https://github.com/arcnmx/ddcset-rs) by [arcnmx](https://github.com/arcnmx)
