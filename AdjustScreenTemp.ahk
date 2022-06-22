@@ -18,16 +18,10 @@ AdjustTemp(increase)
     Blue := GetBlue()
   }
   
-  if (increase == true) {
-    if (Blue == 100) {
-      return
-    }
-    Blue += 10
-  } else {
-    if (Blue == 0) {
-      return
-    }
-    Blue -= 10
+  Blue += increase = true ? 10 : -10
+  
+  if (Blue < 0 || Blue > 100) {
+    return
   }
   
   ; Calculate the green component as a function of the blue.
